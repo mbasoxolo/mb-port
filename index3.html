@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <title>contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<style>
+    body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .cta {
+        display: inline-block;
+        padding: 10px 30px;
+        color: BLACK;
+        background-color: green;
+        border: 6px solid black;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 1rem;
+        margin-top: 30px;
+        transition: .3s ease;
+        transition-property: background-color, color;
+    }
+    
+    .cta:hover {
+        color: white;
+        background-color: black;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    img {
+        border: 5px solid #555;
+        border-radius: 50%;
+        width: 45vh;
+        height: 60vh;
+    }
+    
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+    }
+    
+    .prev {
+        display: inline-block;
+        padding: 10px 30px;
+        color: BLACK;
+        background-color: green;
+        border: 6px solid black;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 1rem;
+        margin-top: 30px;
+        transition: .3s ease;
+        transition-property: background-color, color;
+    }
+    
+    .prev:hover {
+        color: white;
+        background-color: black;
+    }
+    
+    .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .column,
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+        body {
+            border-style: solid;
+            border-color: yellow;
+            background-color: grey
+        }
+    }
+    
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
+</head>
+
+<body>
+
+    <h2>CONTACT ME </h2>
+
+    <div class="container">
+        <div style="text-align:center">
+
+            <p>
+                <b>IF YOU HAVE A REQUEST,DO NOT HESITATE TO CONTACT ME USING BELOW FORM:
+                </b></p>
+
+
+            <p>
+                <b>Phone-Number: 0781119889</b></p>
+            <br>
+            <p>
+                <b>E-mail: mbasa.magwegwe@younglings.africa</b></p>
+
+
+
+            <div class="column">
+                <img src="ROBOT.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="#" method="get">
+                    <label for="fname"><b>First Name</b></label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname"><b>Email-Address</b></label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="subject"><b>Subject</b></label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+
+
+
+
+                    <div class="g-recaptcha" data-sitekey="6LcbR_MZAAAAAKl4f_dbSEmiDWd_FQrmx-4xjHiA"></div>
+                    <a href="mailto:mbasareboloke@gmail.com" type="button" class="cta">
+                        <b>SEND</b>
+                    </a>
+
+
+
+
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <a href="index2.html" type="button" class="prev">
+        <b>HOME</b></a>
+
+
+    <br>
+
+    <footer>
+
+        &copy:2020-mbasa-all rights reserved
+    </footer>
+</body>
+
+</html>
